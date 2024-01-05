@@ -17,6 +17,17 @@ font-style: normal;
 font-weight: 800;
 
 }
+.sec-title{
+    color: #181818;
+    text-align: center;
+    font-size: 35px;
+    font-weight: 700;
+}
+.sec-descrip{
+    color: #3a3939;
+    text-align: center;
+    font-size: 18px;
+}
 .text-primary{
    color: #FD6E0A;
 }
@@ -45,12 +56,38 @@ nav a{
 }
 .header{
     background-color:antiquewhite;
+    background-image:url("../images/header_bg.png");
+    background-repeat: no-repeat;
+    background-position:bottom right;
 }
 .banner{
-    padding: 30px 30px 30px 150px ;
+    padding: 30px 30px 0px 150px ;
     display: flex;
     align-items: center;
+    justify-content: space-between;
+}
+.banner-grt{
+    font-size: 45px;
+    color:#3a3939 ;
+    margin-bottom:0 ;
+}
+.banner-title{
+    font-size: 85px;
+    font-weight: 700px;
+    margin-top: 5px;
+    margin-bottom: 20px;
+}
+.banner.contnt{
+    max-width: 500px;
 }
 .propic{
   width: 500px; 
+}
+/* main section style */
+/* about section style */
+.about{
+    padding: 130px;
+    border-radius: 10px;
+    background:#FFF8F3;
+    margin: 130px 0;
 }
