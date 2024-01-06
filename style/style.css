@@ -109,7 +109,7 @@ main section{
 #what-i-d0{
     padding: 30px 150px;
 }
-.sec-title{
+.section-title{
     text-align: center;
 }
 .skill-container{
@@ -160,6 +160,24 @@ main section{
 /* footer style */
 footer{
     display: flex;
+    gap: 100px;
     background: #f0e3d9;
     padding: 130px 200px;
     margin-top: 100px;}
+.footer-column{
+        width: 50%;
+    }
+.social-links a{
+    margin-right: 25px;
+ }
+.contact input[type="text"],.contact input[type="email"], textarea{
+    display: block;
+    margin-bottom: 25px;
+    padding: 18px 35px;
+    color: #757575 ;
+    border-radius: 5px;
+    background: #fff;
+    border: 0px;
+    width: 100%;
+}
+
